@@ -1,0 +1,6 @@
+@TavernSystem.Application_HostAddress = http://localhost:5108
+
+GET {{TavernSystem.Application_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -6,6 +6,6 @@ public class AdventurersRepository : IAdventurersRepository
 
     public AdventurersRepository()
     {
-        _connectionsString = configuration
+        _connectionsString = configuration.get
     }
 }
